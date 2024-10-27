@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    /* margin: 0; */
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+
+/* purai website lai contain garne wala container */
+.webcoontainer {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* sidebar ko laagi */
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 70px;
+    /* padding-right: 40px; */
+    color: black;
+    font-size: 17px;
+    overflow-y: auto;
+}
+
+
+
+.sidebar .logo {
+    font-size: 24px;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 16px;
+
+}
+
+.sidebar a {
+    padding-left: 8px ;
+    width: 100%;
+    display: block;
+    font-family: Roboto;
+    text-decoration: none;
+    /* padding-right: 100px; */
+    line-height: 40px;
+    color: rgb(137, 137, 137);
+}
+
+.sidebar a:hover {
+    background-color: rgb(206, 206, 206);
+    color: black;
+}
+
+.category {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.category a {
+    width: 100%;
+    display: block;
+    font-family: Roboto;
+    font-weight: 402;
+    font-size: 19px;
+    text-decoration: none;
+    /* padding-right: 100px; */
+    line-height: 40px;
+    color: rgb(137, 137, 137);
+}
+
+
+
+.jeanssubcat{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.jeanssubcat a {
+   
+
+    padding-left: 20px;
+    font-weight: 405;
+    font-size: 16px;
+}
+
+.fa-solid {
+    font-size: 12px;
+}
+
+
+
+
+/* sidebaar baahek ko content ko container division */
+.maincontent {
+    margin-left: 300px;
+    /* background-color: #f8f8f8; */
+    overflow: hidden;
+}
+
+/*  saba divisions bich ma padding yesle dinxa aba, not affecting anything */
+.container3 {
+    padding-bottom: 50px;
+
+}
+
+/* padding matra deko wala haru */
+.paddinggiven {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* yo chai haamro head ko laagi hai ta guys */
+
+.one {
+    padding-right: 20;
+    padding-left: 20;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 0;
+}
+
+.jeansright {
+    font-size: 24px;
+    left: 20px;
+}
+
+.lefticons {
+    display: flex;
+    right: 20px;
+    padding-top: 24px;
+}
+
+.fa-solid2 {
+    font-size: 20px;
+}
+
+
+/* yo chai tyo background iage wala ko laagi */
+.newarrivals {
+    position: relative;
+    object-fit: contain;
+    color: white;
+}
+
+.newarrivals img {
+    width: 100%;
+}
+
+.fortext {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.shopnowbtn {
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+/* haamro image wala grid ko laagi hai ta yo chai */
+.gridcontainer1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.imagecontainer img {
+    width: 220px;
+    filter: grayscale(70%);
+}
+
+
+
+/* yo chai subscribe wala div ko laagi */
+.four {
+    background-color: black;
+    color: white;
+    padding: 18px 20px 30px 20px;
+}
+
+.four .heading {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.four input {
+    margin-bottom: 20px;
+    margin-top: 25x;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    font-size: 15px;
+
+}
+
+.subscribebtn {
+    background-color: rgb(232, 54, 23);
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+
+.four input {
+    width: 100%;
+}
+
+
+/*  aba aayo haamro flex jastodekhine grid container for contact about ra store */
+/* aba garna thaalam kesko laagi vanda, haamro contact srtore ara about ko grid ko laagi */
+
+.five {
+    background-color: #ebebeb;
+    padding-top: 30px;
+}
+
+.gridcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.Contactgrid {
+    width: 290px;
+    justify-content: center;
+    text-align: center;
+}
+
+.Contactgrid input {
+    width: 100%;
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.Contactgrid button {
+    font-size: 12px;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.Aboutgrid {
+    text-align: center;
+}
+
+ul.listofabout {
+    margin-left: 2px;
+    list-style-type: none;
+    font-size: 12px;
+    padding: 0;
+}
+
+.listofabout li {
+    margin-bottom: 12px;
+    text-decoration: underline;
+}
+
+ul.listofstore {
+    margin-left: 2px;
+    list-style-type: none;
+    font-size: 12px;
+    padding: 0;
+}
+
+.listofstore li {
+    margin-bottom: 12px;
+}
+
+
+
+/* footer */
+.footer {
+    margin-left: 300px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    font-size: 15px;
+    /* width: 100%; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container3 button:hover {
+    background-color: rgb(196, 196, 196);
+    color: black;
+}

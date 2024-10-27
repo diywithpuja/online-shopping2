@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiywithPuja</title>
+    <link rel="stylesheet" a href="diywithpuja.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <div class="maincontainer webcoontainer">
+
+        <nav class="container2 for sidebar">
+            <p class="logo">LOGO</p>
+            <div class="category">
+                <a href="#" class="categoryonly">Shirts</a>
+                <a href="#" class="categoryonly">Dresses</a>
+
+                <a href="#" class="categoryonly" onclick="showdropdown()" 
+                style="color: black;">Jeans <i class="fa-solid fa-chevron-down"></i></a>
+
+                <div class="jeanssubcat" id="jeanssubcat" 
+                style="display: none;">
+                    <a href="#" style="background-color: rgb(237, 237, 237); color: black;"><i
+                            class="fa-solid fa-chevron-right"></i> Skinny</a>
+                    <a href="#">Relaxed</a>
+                    <a href="#">Bootcut</a>
+                    <a href="#">Straight</a>
+                </div>
+
+                <!-- <p class="jeanssubcat "> Jacket</p>
+                    <p class="jeanssubcat "> Gymwear</p>
+                    <p class="jeanssubcat ">  Blazers</p>
+                    <p class="jeanssubcat "> shoes</p> -->
+
+                <a href="#" class="categoryonly">Jacket</a>
+                <a href="#" class="categoryonly">Gymwear</a>
+                <a href="#" class="categoryonly">Blazers</a>
+                <a href="#" class="categoryonly">shoes</a>
+
+            </div>
+
+            <a href="#">Contact</a>
+            <a href="#">Newsletter</a>
+            <a href="#">Subscribe</a>
+            <!-- <p>Contact</p>
+            <p>Newsletter</p>
+            <p> Subscribe</p> -->
+
+        </nav>
+
+        <div class="conatiner2 for maincontent">
+
+            <div class="container3 one for header paddingnotgiven">
+
+                <div class="right jeansright">
+                    <p>Jeans</p>
+                </div>
+                <div class="left lefticons">
+                    <div class="carticon" style="padding-right: 20px;">
+                        <i class="fa-solid fa-cart-shopping fa-solid2"></i>
+                    </div>
+                    <div class="serachicon"><i class="fa-solid fa-magnifying-glass fa-solid2"></i></div>
+                </div>
+            </div>
+
+            <!-- /* yo chai tyo background iage wala ko laagi */ -->
+            <div class="container3 two for home paddinggiven">
+
+                <div class=" newarrivals homepage">
+
+                    <img src="images/background.jpeg" alt="image here">
+
+                    <div class="newarrivalscontent fortext">
+                        <p style=" font-size: 64px; margin: 0;">New arrivals </p>
+                        <p style="font-size: 36px; margin-top: 30px; margin-bottom: 20px; ">COLLECTION 2016</p>
+                        <button class="btn shopnowbtn"> SHOP NOW</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="container3 three for imagegrid paddinggiven">
+
+                <div class=" three for imagegrid  gridcontainer1">
+                    <div class="gridcontainer1 imagecontainer">
+                        <div> <img src="images/1.jpeg">
+                            <p>Ripped Skinny Jeans </p>
+                            <p> $24.99</p>
+                        </div>
+                    </div>
+
+                    <div class="gridcontainer1 imagecontainer">
+                        <div> <img src="images/2.jpeg">
+                            <p>Ripped Skinny Jeans </p>
+                            <p> $24.99</p>
+                        </div>
+                    </div>
+
+
+
+                    <div class="gridcontainer1 imagecontainer">
+                        <div> <img src="images/3.jpeg">
+                            <p>Ripped Skinny Jeans </p>
+                            <p> $24.99</p>
+                        </div>
+                    </div>
+
+                    <div class="gridcontainer1 imagecontainer">
+                        <div> <img src="images/4.jpeg">
+                            <p>Ripped Skinny Jeans </p>
+                            <p> $24.99</p>
+                        </div>
+                    </div>
+
+                    <div class="gridcontainer1 imagecontainer">
+                        <div> <img src="images/5.jpeg">
+                            <p>Ripped Skinny Jeans </p>
+                            <p> $24.99</p>
+                        </div>
+                    </div>
+
+                    <div class="gridcontainer1 imagecontainer">
+                        <div> <img src="images/6.jpeg">
+                            <p>Ripped Skinny Jeans </p>
+                            <p> $24.99</p>
+                        </div>
+                    </div>
+
+                    <div class="gridcontainer1 imagecontainer">
+                        <div> <img src="images/7.jpeg">
+                            <p>Ripped Skinny Jeans </p>
+                            <p> $24.99</p>
+                        </div>
+                    </div>
+
+                    <div class="gridcontainer1 imagecontainer">
+                        <div> <img src="images/8.jpeg">
+                            <p>Ripped Skinny Jeans </p>
+                            <p> $24.99</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="container3 four for subscribe paddingnotgiven ">
+                <p class="heading">Subscribe</p>
+                <p style="font-size: 16px;">To get special offers and VIP treatment:</p>
+                <input type="email" placeholder="Enter E-mail">
+                <button type="submit" class="subscribebtn"> Subscribe </button>
+            </div>
+
+
+            <div class="container3 five for contact_about_store paddingnotgiven">
+
+                <div class="container3 five for contact_about_store paddingnotgiven gridcontainer">
+
+                    <div class="contact_about_store Contactgrid">
+                        <p style="font-size: 20px;"> Contact</p>
+                        <p style="font-size: 12px;"> Questions? Go ahead.</p>
+                        <form>
+                            <input type="text" placeholder="Name">
+                            <input type="email" placeholder="Email">
+                            <input type="text" placeholder="Subject">
+                            <input type="text" placeholder="Message">
+                            <button type="submit"> Send</button>
+                        </form>
+
+
+
+                    </div>
+                    <div class="contact_about_store Aboutgrid">
+
+                        <p style="font-size: 20px;"> About</p>
+                        <ul class="listofabout">
+                            <li> About us </li>
+                            <li> We're hiring </li>
+                            <li> Support </li>
+                            <li> Find store </li>
+                            <li> Shipment </li>
+                            <li> Abouus </li>
+                            <li> Payment </li>
+                            <li> Gift card </li>
+                            <li> Return </li>
+                            <li> Help </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="contact_about_store Storegrid">
+                        <p style="font-size: 20px;"> Store</p>
+
+
+                        <ul class="listofstore">
+                            <li> Company Name </li>
+                            <li> 0044123123 </li>
+                            <li> ex@mail.com </li>
+                            <li>
+                                <p style="font-size: 20px;"> We accept</p>
+                            </li>
+                            <li> Amex </li>
+                            <li> Credit Card </li>
+                            <li> Payment </li>
+                            <li> icooms icsons </li>
+
+                        </ul>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container3 six for footer paddingnotgiven">
+            <p>Powered by w3.css</p>
+        </div>
+
+
+    </div>
+    <script>
+
+        function showdropdown() {
+            var x = document.getElementById("jeanssubcat");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+        // function showdropdown(){
+        //     document.getElementById("jeanssubcat").style.display='block';
+        // }
+
+
+    </script>
+
+</body>
+
+</html>
